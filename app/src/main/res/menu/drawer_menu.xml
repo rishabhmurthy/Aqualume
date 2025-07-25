@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_about_title" android:title="About" android:enabled="false"/>
+        <item android:id="@+id/nav_us" android:title=" About Us"/>
+        <item android:id="@+id/nav_staff" android:title=" Staff and Board"/>
+        <item android:id="@+id/nav_mission" android:title=" Mission and History"/>
+        <item android:id="@+id/nav_work_with_us" android:title=" Work With Us"/>
+        <item android:id="@+id/nav_supporters" android:title=" Supporters"/>
+        <item android:id="@+id/nav_news" android:title=" News"/>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_our_work_title" android:title="Our Work" android:enabled="false"/>
+        <item android:id="@+id/nav_water_protection" android:title=" Water Protection"/>
+        <item android:id="@+id/nav_land_protection" android:title=" Land Protection"/>
+        <item android:id="@+id/nav_climate_resilience" android:title=" Climate Resilience"/>
+        <item android:id="@+id/nav_education" android:title=" Education"/>
+    </group>
+
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_get_involved_title" android:title="Get Involved" android:enabled="false"/>
+        <item android:id="@+id/nav_membership" android:title=" Membership"/>
+        <item android:id="@+id/nav_business_support" android:title=" Business Support"/>
+        <item android:id="@+id/nav_volunteering" android:title=" Volunteering"/>
+        <item android:id="@+id/nav_programs" android:title=" Upcoming Programs"/>
+    </group>
+
+    <item android:id="@+id/nav_contact" android:title="Contact Us"/>
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_Weather_title" android:title="Weather" android:enabled="false"/>
+        <item android:id="@+id/nav_weather" android:title=" Weather"/>
+    </group>
+</menu>
