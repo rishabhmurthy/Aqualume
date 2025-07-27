@@ -32,5 +32,6 @@
     <group android:checkableBehavior="single">
         <item android:id="@+id/nav_Weather_title" android:title="Weather" android:enabled="false"/>
         <item android:id="@+id/nav_weather" android:title=" Weather"/>
+        <item android:id="@+id/nav_volunteer_form" android:title=" Volunteer Form"/>
     </group>
 </menu>

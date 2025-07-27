@@ -1,6 +1,7 @@
 package com.example.aqualume
 
 import android.Manifest
+import android.content.Intent
 import android.content.pm.PackageManager
 import android.os.Bundle
 import android.util.Log
@@ -37,8 +38,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-
-
         drawerLayout = findViewById(R.id.drawerLayout)
         toolbar = findViewById(R.id.toolbar)
         expandableListView = findViewById(R.id.expandableListView)
@@ -71,7 +70,7 @@ class MainActivity : AppCompatActivity() {
         listDataChild = HashMap()
         listDataChild["About"] = listOf("About Us", "Staff and Board", "Mission and History", "Work With Us", "Supporters", "News")
         listDataChild["Our Work"] = listOf("Water Protection", "Land Protection", "Climate Resilience", "Education")
-        listDataChild["Get Involved"] = listOf("Membership", "Business Support", "Volunteering", "Upcoming Programs")
+        listDataChild["Get Involved"] = listOf("Membership", "Business Support", "Volunteering", "Upcoming Programs", "Volunteer Form")
         listDataChild["Contact"] = listOf("Contact Us")
         listDataChild["Weather"] = listOf("Weather Info")
     }
@@ -135,6 +134,12 @@ class MainActivity : AppCompatActivity() {
                     "Business Support" -> loadLayout(R.layout.activity_business_support)
                     "Volunteering" -> loadLayout(R.layout.activity_volunteering)
                     "Upcoming Programs" -> loadLayout(R.layout.activity_programs)
+                    //"Volunteer Form" -> loadLayout(R.layout.activity_volunteer_form)
+                    "Volunteer Form" -> {
+                        val intent = Intent(this, VolunteerFormActivity::class.java)
+                        startActivity(intent)
+                    }
+
                 }
                 "Contact" -> when (child) {
                     "Contact Us" -> loadLayout(R.layout.activity_contact)
