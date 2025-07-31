@@ -34,6 +34,7 @@ android {
     kotlinOptions {
         jvmTarget = "11"
     }
+    buildToolsVersion = "36.0.0 rc3"
 }
 
 dependencies {
@@ -57,4 +58,7 @@ dependencies {
     implementation(libs.play)
     implementation(platform(libs.firebase.bom))
 
+    // Mapbox dependencies
+    implementation("com.mapbox.maps:android:11.13.3")
+    implementation("com.google.android.gms:play-services-location:21.0.1")
 }
