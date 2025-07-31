@@ -3,10 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.aqualume">
 
+    <!-- Permissions -->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
 
@@ -19,9 +18,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Aqualume">
-        <activity
-            android:name=".VolunteerFormActivity"
-            android:exported="false" />
+
+        <!-- Splash screen -->
         <activity
             android:name=".SplashActivity"
             android:exported="true"
@@ -30,11 +28,12 @@
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity> <!-- ✅ MainActivity: regular app screen -->
+        </activity>
+
+        <!-- Main screen -->
         <activity
             android:name=".MainActivity"
             android:exported="true"
             android:theme="@style/Theme.Aqualume" />
     </application>
-
 </manifest>

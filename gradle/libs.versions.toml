@@ -14,6 +14,8 @@ cardview = "1.0.0"
 googleGmsGoogleServices = "4.4.3"
 firebaseFirestore = "26.0.0"
 firebaseBom = "33.4.0"
+navigationFragmentKtx = "2.9.2"
+navigationUiKtx = "2.9.2"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -30,6 +32,8 @@ gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
 play = { group = "com.google.android.gms", name = "play-services-location", version = "21.0.1" }
 firebase-firestore = { group = "com.google.firebase", name = "firebase-firestore", version.ref = "firebaseFirestore" }
 firebase-bom = {module = "com.google.firebase:firebase-bom" , version.ref = "firebaseBom"}
+androidx-navigation-fragment-ktx = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "navigationFragmentKtx" }
+androidx-navigation-ui-ktx = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "navigationUiKtx" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

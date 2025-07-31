@@ -2,4 +2,9 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- You can customize these colors -->
+    <color name="teal_700">#018786</color>
+    <color name="nav_item_selected">#FFFFFF</color>
+    <color name="nav_item_unselected">#B0BEC5</color>
 </resources>
