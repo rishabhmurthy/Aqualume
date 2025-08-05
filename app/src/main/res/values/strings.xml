@@ -4,4 +4,12 @@
     <string name="navigation_drawer_close">Close drawer</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- DataFragment strings -->
+    <string name="station_id_format">Station ID: %s</string>
+    <string name="station_distance_format">Distance: %s miles away</string>
+    <string name="last_updated_format">Last Updated: %s</string>
+    <string name="last_updated_unknown">Last Updated: Unknown</string>
+    <string name="quality_value_format">%s %s</string>
+    <string name="measured_on_format">Measured on: %s</string>
 </resources>
