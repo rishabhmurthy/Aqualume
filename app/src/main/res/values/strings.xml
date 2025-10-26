@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Aqualume</string>
+    <string name="weather_location">📍 %1$s, %2$s</string>
+    <string name="place_autocomplete_query_hint">Search for a place or address</string>
+    <string name="quality_value_format">%1$s %2$s</string>
+    <string name="measured_on_format">Measured on %1$s</string>
+    <string name="place_autocomplete_selection_error">Could not select this place. Please try again.</string>
+    <string name="place_autocomplete_reverse_geocoding_error_message">Could not find a place for this location. Please try again.</string>
+    <string name="fetching_location">Fetching Location</string>
+    <string name="weather_info_placeholder">Weather info will appear here</string>
+    <string name="refresh">Refresh</string>
+</resources>

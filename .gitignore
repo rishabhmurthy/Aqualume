@@ -1,0 +1,10 @@
+.gradle/
+/build/
+/local.properties
+/.idea/
+/.env
+/.DS_Store
+/*.iml
+/.gradle/
+/out/
+

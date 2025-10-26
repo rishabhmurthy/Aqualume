@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.Aqualume" parent="Theme.Material3.DayNight.NoActionBar">
+    </style>
+
+    <style name="Theme.Aqualume" parent="Base.Theme.Aqualume" />
+
+    <style name="Theme.Aqualume.Splash" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@mipmap/ic_launcher</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="BottomNavigationStyle" parent="Widget.MaterialComponents.BottomNavigationView.Colored">
+        <item name="itemIconTint">@color/nav_item_color</item>
+        <item name="itemTextColor">@color/nav_item_color</item>
+    </style>
+</resources>

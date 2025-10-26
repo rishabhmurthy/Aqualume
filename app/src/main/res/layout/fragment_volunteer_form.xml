@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/nameedt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/ageedt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Age"
+        android:inputType="number"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/Dateedt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date"
+        android:inputType="date"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/Sitelocationedt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="City"
+        android:inputType="text"
+        android:layout_marginBottom="16dp"/>
+
+
+    <EditText
+        android:id="@+id/Temperatureedt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Temperature in Celsius"
+        android:inputType="number"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/Salinityleveledt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Salinity Level (If having Instrumrnt)"
+        android:inputType="text"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/Faunaedt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="What animals/birds were spotted"
+        android:inputType="text"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/Weatheredt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="What is the current weather condition"
+        android:inputType="textImeMultiLine"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/Rainedt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Has is rained in the past 3 days"
+        android:inputType="text"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/submitbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"/>
+
+</LinearLayout>

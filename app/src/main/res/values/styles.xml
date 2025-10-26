@@ -1,0 +1,5 @@
+<resources>
+    <style name="activity_splash" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+    </style>
+</resources>

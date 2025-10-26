@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "970538214567",
+    "project_id": "aqualume-a5225",
+    "storage_bucket": "aqualume-a5225.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:970538214567:android:6b33b1b36cee941b1f6782",
+        "android_client_info": {
+          "package_name": "com.example.aqualume"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApDDF29s2a3PjTgdc6K86CQSoElU-3zR0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

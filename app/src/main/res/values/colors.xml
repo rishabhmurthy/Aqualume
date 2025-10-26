@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="light_gray">#EEEEEE</color>
+
+    <!-- Navigation colors -->
+    <color name="nav_item_selected">#3F51B5</color>
+    <color name="nav_item_unselected">#000000</color>
+
+    <!-- Material Design colors -->
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+
+    <color name="ecoli_safe">#B9FFB0</color>
+    <color name="ecoli_unsafe">#FFA3A3</color>
+</resources>
